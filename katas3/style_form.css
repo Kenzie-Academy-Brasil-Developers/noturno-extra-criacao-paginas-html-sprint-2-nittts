@@ -1,1 +1,58 @@
-/* FOLHA DE ESTILO DA PAGINA DE FORMULÁRIO */
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a {
+    float: left;
+    margin: 50px;
+    background-color: rgb(228, 228, 228);
+    border-left: 2px solid cadetblue;
+    border-bottom: 2px solid cadetblue;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+.form {
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 10px solid cadetblue;
+    border-bottom: 10px solid cadetblue;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    background-color: rgb(214, 251, 251);
+    border: none;
+    border-left: 2px solid cadetblue;
+    border-bottom: 2px solid cadetblue;
+}
+
+textarea {
+    margin: 5px;
+    background-color: rgb(214, 251, 251);
+    border: none;
+    border-left: 2px solid cadetblue;
+    border-bottom: 2px solid cadetblue;
+}
+
+button {
+    background-color: cadetblue;
+    border: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+}
+
+button:hover {
+    background-color: #b19cd9;
+    color: black;
+    cursor: pointer;
+}
